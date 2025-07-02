@@ -28,7 +28,9 @@ async function getNetClient() {
   return client;
 }
 
-export default {
+const database = {
   query,
   getNetClient,
 };
+
+export default database;
